@@ -1,11 +1,12 @@
 
 public class Main {
 	public static void main(String[] args) {
-		Clima clima = new Clima();
-		Observador observador = new Observador();
+		Search s = new Search();
+		Observador obs = new Observador();
 
-		clima.addObserver(observador);
-		clima.setClima(29);
-		clima.notifyObservers();
+		s.addObserver(obs);
+		s.iniciarArreglo(20);
+		System.out.println(s.busqueda(15));
+		s.notifyObservers();
 	}
 }
