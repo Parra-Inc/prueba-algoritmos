@@ -12,6 +12,6 @@ public class IsPalindro {
 		System.out.println(isPalindrome("se van sus naves")); //true
 		System.out.println(isPalindrome("15151")); //true
 		System.out.println(isPalindrome("palindro")); //false
-		System.out.println(isPalindrome("time")); //false
+		System.out.println(isPalindrome("times")); //false
 	}
 }
