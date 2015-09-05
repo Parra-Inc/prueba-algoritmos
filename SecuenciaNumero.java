@@ -35,7 +35,7 @@ public class SecuenciaNumero {
 	public static void main(String[] args) {
 		SecuenciaNumero sq = new SecuenciaNumero();
 		//llenar el array con numero aleatorios
-		int arr[] = sq.populateArray(500); 
+		int arr[] = sq.populateArray(200); 
 		System.out.println("En la secuencia aleatoria se repite el numero: > " + sq.buscar(arr));
 		//llenar el array manualmente
 		System.out.println("En la secuencia manual se repite el numero: > " + sq.buscar(new int[] {7,5,9,8,12,25,98,5,88,1}));
