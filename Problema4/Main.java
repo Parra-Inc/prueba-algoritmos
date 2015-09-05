@@ -5,7 +5,7 @@ public class Main {
 		Observador observador = new Observador();
 
 		clima.addObserver(observador);
-		clima.setClima(32);
+		clima.setClima(29);
 		clima.notifyObservers();
 	}
 }
