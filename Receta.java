@@ -18,8 +18,8 @@ public class Receta {
 
 	public static void main(String[] args) {
 		Receta receta = new Receta();
-		String ing = receta.crearReceta(1250);
-		System.out.println(receta.recetaFinal(ing));//output: Azucar y Ensalada y Mantequilla
+		String ing = receta.crearReceta(12);
+		System.out.println(receta.recetaFinal(ing));//output: Habichuela y Arroz
 	}
 
 	public String crearReceta(int num) {
